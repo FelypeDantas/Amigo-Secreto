@@ -259,10 +259,13 @@ body {
   .section__title {
     font-size: 32px;
   }
-}
 
-@media (max-width: 480px) {
   .page__image {
-      display: none; 
+    display: none; 
+  }
+
+  .form__buttons {
+    flex-direction: column; 
+    gap: 16px; 
   }
 }
