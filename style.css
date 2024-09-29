@@ -204,3 +204,42 @@ body {
   background-color: #fff;
   color: #1875e8;
 }
+
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+    padding: 50px;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+
+  .friends__container, .prizeDraw__container {
+    width: 100%;
+  }
+
+  .section__title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 20px;
+  }
+
+  .form__input {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .section__title {
+    font-size: 32px;
+  }
+}
+
