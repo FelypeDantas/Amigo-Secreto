@@ -261,3 +261,8 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .page__image {
+      display: none; 
+  }
+}
